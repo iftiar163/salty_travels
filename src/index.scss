@@ -3,8 +3,38 @@ body {
   overflow-x: hidden;
 }
 
+:root {
+  --primary-color: #2d3134;
+  --secondary-color: #f66f4d;
+  --menu-color: #2e476b;
+  --white-color: #fff;
+  --text-color: #5b5f62;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Sen", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.3em;
+}
+
+p {
+  font-size: 16px;
+  color: var(--text-color);
+  line-height: 1.3em;
+  font-weight: 400;
 }
 
 ul {

@@ -1,0 +1,26 @@
+footer {
+  .logo {
+    img {
+      width: 44%;
+    }
+
+    p {
+      font-size: 16px;
+      padding: 20px 0;
+    }
+  }
+
+  .footer-social {
+    ul {
+      display: flex;
+      justify-content: start;
+      gap: 20px;
+
+      li {
+        a {
+          padding: 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,6 @@
 header {
   padding: 15px 0;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15);
 
   .logo {
     img {
@@ -17,11 +18,36 @@ header {
       justify-content: center;
       gap: 50px;
       margin-top: 12px;
+
+      li {
+        a {
+          color: var(--menu-color);
+          font-size: 16px;
+          line-height: 1.3em;
+          position: relative;
+          overflow: hidden;
+          transition: 0.3s;
+
+          &:hover {
+            color: var(--secondary-color);
+          }
+        }
+      }
     }
   }
+}
 
-  .book-now {
-    .book_button {
+.book-now {
+  .book_button {
+    background: transparent;
+    border: 1px solid var(--secondary-color);
+    border-radius: 50px;
+    color: var(--secondary-color);
+    transition: 0.3s;
+
+    &:hover {
+      background: var(--secondary-color);
+      color: var(--white-color);
     }
   }
 }
